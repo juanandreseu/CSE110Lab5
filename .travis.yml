@@ -1,5 +1,4 @@
 language: java
-before_script:
-  - ant
-install: ant deps
+before_install:
+  - sudo apt-get install -y ant
 jdk: oraclejdk11
