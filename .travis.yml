@@ -1,4 +1,6 @@
 language: java
+before_script:
+- ant
 install: ant deps
 jdk: oraclejdk11
 - openjdk11
