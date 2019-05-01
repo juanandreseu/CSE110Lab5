@@ -1,3 +1,6 @@
 language: java
-install: sudo apt-get install -y ant
+addons:
+  apt:
+    packages:
+      - ant
 jdk: oraclejdk11
